@@ -6,11 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <img src="" weight="" height="" align="center">
-    <fieldset>
-       <legend><h1>Formulir Pendaftaran Ayang Shila</h1></legend>
-       <table border="2" bgcolor="pink">
+<style>
+    input {
+        background-color: rgba(255, 247, 247, 0.87);
+    }
+
+    textarea {
+        background-color: rgba(255, 247, 247, 0.87);
+    }
+
+    select {
+        background-color: rgba(255, 247, 247, 0.87);
+    }
+
+    .submitButton {
+        width: 80%;
+        height: 35px;
+        border: 1px;
+        border-radius: 13px;
+        background-color: rgba(255, 229, 229, 0.95);
+    }
+
+    .fieldsetWhite {
+        width: fit-content;
+        border-radius: 46px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        background-color: rgba(255, 239, 239, 0.6);
+    }
+
+    .fieldsetPink {
+        width: fit-content;
+        border-radius: 30px;
+        background-color: rgba(255, 178, 178, 0.7);
+    }
+
+    .body {
+        background-image: url(https://andsotoshop-static.s3.eu-west-2.amazonaws.com/wp-content/uploads/2021/09/26214904/llAol6VRFt.jpg);
+        /* background-image: url(https://i.pinimg.com/originals/95/34/3b/95343bc0170cb7c4a85a55185db34d74.jpg); */
+        background-size: cover;
+    }
+
+</style>
+<body class="body">
+    
+    <center>
+    <p>
+        <img src="images/banner.jpg" align="center" width="600px">
+    </p>
+    <form action="">
+    <fieldset class="fieldsetWhite">
+    <fieldset class="fieldsetPink">
+       <legend align="center"><h1>Formulir Pendaftaran Ayang Shila</h1></legend>
+       <table border="0">
         <tr>
             <td>Nama Calon</td>
             <td>:</td>
@@ -66,16 +115,18 @@
             <td>:</td>
             <td><input type="file" name="foto"></td>
         </tr>
-    
-        <tr>
-            <td><input type="submit" name="submit" value="SUBMIT"></td>
-            <td></td>
-            <td></td>
-        </tr>
 
     </table>
-    </fieldset>
 
+    <br>
+    <br>
+    <input type="submit" name="submit" value="SUBMIT" class="submitButton">
+    <br>
+    
+    </fieldset>
+    </fieldset>
+    </form>
+    </center>
     
 </body>
 </html>
